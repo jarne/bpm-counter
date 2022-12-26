@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <link
+            href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <link href="assets/css/index.css" rel="stylesheet" />
+        <title>BPM Counter | beats per minute</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="bpm-view">
+                <p>keyboard shortcuts:</p>
+                <p><kbd>r</kbd> reset • <kbd>c</kbd> copy to clipboard</p>
+                <p><span id="bpmValueDisplay" class="bpm-display">...</span></p>
+                <p id="descriptionText" style="display: none">
+                    beats per minute (<a
+                        href="https://en.wikipedia.org/wiki/Tempo"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >what's that?</a
+                    >)
+                </p>
+                <p id="startText">
+                    press any key (except those mentioned above) to tap the BPM
+                </p>
+                <p>
+                    this web app is
+                    <a
+                        href="https://github.com/jarne/bpm-counter"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >open source</a
+                    >
+                </p>
+            </div>
+        </div>
+        <script type="text/javascript" src="assets/js/index.js"></script>
+    </body>
+</html>

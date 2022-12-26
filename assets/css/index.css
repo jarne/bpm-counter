@@ -1,0 +1,29 @@
+/**
+ * BPM Counter | app style
+ */
+
+html,
+body,
+.container {
+    height: 100%;
+}
+
+body {
+    background-image: url("./../img/background.svg");
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bpm-view {
+    text-align: center;
+}
+
+.bpm-display {
+    font-size: 128px;
+    font-weight: 700;
+}

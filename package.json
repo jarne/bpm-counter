@@ -1,0 +1,40 @@
+{
+    "name": "bpm-counter",
+    "version": "1.0.0",
+    "description": "Minimalistic web app to count beats per minute using clicks",
+    "keywords": [
+        "bpm",
+        "count",
+        "tap",
+        "music",
+        "speed",
+        "web"
+    ],
+    "homepage": "https://github.com/jarne/bpm-counter",
+    "bugs": {
+        "url": "https://github.com/jarne/bpm-counter/issues"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Jarne",
+        "url": "https://github.com/jarne"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jarne/bpm-counter.git"
+    },
+    "scripts": {
+        "start": "parcel index.html",
+        "build": "parcel build index.html",
+        "format": "prettier --write \"**/*.{js,css,html,json,yml,md}\""
+    },
+    "dependencies": {
+        "bootstrap": "^5.2",
+        "cssnano": "^5.1",
+        "parcel": "^2.8",
+        "postcss": "^8.4"
+    },
+    "devDependencies": {
+        "prettier": "^2.8"
+    }
+}
