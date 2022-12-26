@@ -7,8 +7,8 @@
     <a href="https://github.com/jarne/bpm-counter/blob/master/package.json">
         <img src="https://img.shields.io/github/package-json/v/jarne/bpm-counter.svg" alt="Package version">
     </a>
-    <a href="https://app.netlify.com/sites/clever-dijkstra-9bf79e/deploys">
-        <img src="https://api.netlify.com/api/v1/badges/8b4e8370-8594-4598-b671-4c44afb6320b/deploy-status" alt="Netlify Status">
+    <a href="https://app.netlify.com/sites/timely-conkies-3c8b4c/deploys">
+        <img src="https://api.netlify.com/api/v1/badges/7905daad-b815-415f-a3ad-235514473db1/deploy-status" alt="Netlify Status">
     </a>
     <a href="https://github.com/jarne/bpm-counter/blob/master/LICENSE">
         <img src="https://img.shields.io/github/license/jarne/bpm-counter.svg" alt="License">
@@ -34,7 +34,7 @@ Here's a screenshot of the web app:
 
 ### Simply way (hosted version)
 
-Use the hosted version at ...
+Use the hosted version at [bpm-counter.landway.space](https://bpm-counter.landway.space).
 
 ### Self-install (local)
 
